@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inintal-scale=1.0">
+        <title>JOIN US</title>
+        <style>
+            *{
+                padding: 0; margin: 0; box-sizing: border-box;
+             }
+             body{
+                height: 100vh;
+                display: grid;
+place-items: center;
+font-family: 'open sans' , sans-serif
+}
+.box{
+    display: flex;
+align-items: center;
+height: 80%;
+width: 60%;
+border-radius: 15px;
+box-shadow: 5px 5px 20px rgba(0,0, 0, 0.2);
+}
+.box .subbox{
+    width: 50%;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.box #subbox1{
+    background: linear-gradient(to right,#ff4b2b,#ff464c);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #fff;
+}
+#subbox1 p{
+    margin: 30px;
+width: 80%;
+text-align: center;
+}
+#subbox1 button{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.box #subbox2 .logopt{
+    margin-top: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#subbox2 p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+#subbox2 #name,#subbox2 #email,#subbox2 #password{
+    width: 70%;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+#subbox2 button{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(to right,#ff4b2b,#ff464c);
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    }
+
+
+
+
+
+
+
+
+        </style>
+</head>
+<body>
+    <div class="box">
+        <div class="subbox" id="subbox1">
+        <h2>WELCOME BACK!</h2>
+        <p>
+            To keep conneted with us please login 
+            with your personal info
+        </p>
+        <button>SIGN IN</button>
+    </div>
+
+        <div class="subbox" id="subbox2">
+        <h1>CREATE ACCOUNT</h1>
+        <div class="logpot">
+           <a href="https://accounts.google.com/"><img src="google.jfif" height="40px" width="40px"></a>
+           <a href="https://www.facebook.com/login/" ><img src="facebook.png" height="40px" width="40px"></a>
+            <a href="https://www.linkedin.com/home"><img src="link.png" height="40px" width="40px"></a>
+</div>
+<p>or use your email for registration</p>
+<input type="name" id="name" placeholder="Name">
+<input type="email" id="email" placeholder="Email">
+<input type="password" id="password" placeholder="Password">
+<button>SIGN UP</button>
+
+
+    </div>
+</div>
+        
+   
+
+
+
+
+
+
+
+
+
+</body>
+</html>
